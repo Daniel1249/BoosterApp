@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj": {}
+    "c:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj": {
+    "c:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj",
+        "projectPath": "c:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dan\\Desktop\\BoosterApp\\API\\obj\\",
+        "outputPath": "c:\\Users\\Dan\\Desktop\\BoosterApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
