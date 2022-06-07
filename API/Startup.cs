@@ -1,3 +1,4 @@
+using API.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace API
@@ -18,7 +19,7 @@ namespace API
             
             services.AddControllers();
             //services.AddAutoMapper(typeof(MappingProfiles));
-            services.AddDbContext<Data.StoreContext>(x =>
+            services.AddDbContext<StoreContext>(x =>
                 x.UseSqlite(_configuration.GetConnectionString("DefaultConnection")));
 
             /*
