@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5h7F2+iDZAdM5cMsqWepe1AalAmzo6EB5i0gcSyOE4uciep86yGMIoZsVwy5TLM+0G7HkMV/oDx4oaEkhdZ43Q==",
+  "dgSpecHash": "5i6Bzo+MzgLSH1ITRmsdrXXu8c/rIo38OKL2HnVenKd9Xeh9Ig68KP4lDAV48bb5mo1xK/LI/seYfM/4Yzzxog==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Dan\\Desktop\\BoosterApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dan\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.5\\microsoft.data.sqlite.core.6.0.5.nupkg.sha512",
     "C:\\Users\\Dan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
