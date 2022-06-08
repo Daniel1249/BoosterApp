@@ -1,3 +1,4 @@
+using Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,7 +15,7 @@ namespace API
                 var loggerFactory = services.GetRequiredService<ILoggerFactory>(); 
                 try 
                 {
-                    var context = services.GetRequiredService<Data.StoreContext>();
+                    var context = services.GetRequiredService<StoreContext>();
                     await context.Database.MigrateAsync();
                     //await StoreContextSeed.SeedAsync(context, loggerFactory);
 
